@@ -1,0 +1,10 @@
+PORT=1
+PATH=2
+EXIT=3
+STOP=4
+INSTALL=5
+NEWLINE=6
+WHITESPACE=7
+'exit'=3
+'stop'=4
+'install'=5

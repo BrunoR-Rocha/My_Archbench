@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchBench.PlugIns", "ArchBench.PlugIns\ArchBench.PlugIns.csproj", "{3674E873-4DFE-4296-8D75-9869AC6A9EC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{65C126B9-185B-4E1E-B6F0-8A5ED63ED9C6}"
+	ProjectSection(SolutionItems) = preProject
+		HttpServer\HttpServer.dll = HttpServer\HttpServer.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlugIns", "PlugIns", "{5DF8506A-53A8-4D38-9794-83EA082925E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchBench.Server", "ArchBench.Server\ArchBench.Server.csproj", "{6E27897A-D0AB-4F1F-92EF-F1079CF0416E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56821931-D69A-4220-9D11-E1BADE7B4441} = {56821931-D69A-4220-9D11-E1BADE7B4441}
+		{5DE82443-CF9F-46A1-842C-9C123A14D96A} = {5DE82443-CF9F-46A1-842C-9C123A14D96A}
+		{6DF65D59-BFC1-4566-9F1C-CE1E1FEDC752} = {6DF65D59-BFC1-4566-9F1C-CE1E1FEDC752}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchBench.PlugIns.Hello", "ArchBench.PlugIns.Hello\ArchBench.PlugIns.Hello.csproj", "{56821931-D69A-4220-9D11-E1BADE7B4441}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchBench.PlugIns.Login", "ArchBench.PlugIns.Login\ArchBench.PlugIns.Login.csproj", "{5DE82443-CF9F-46A1-842C-9C123A14D96A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchBench.PlugIns.Logger", "ArchBench.PlugIns.Logger\ArchBench.PlugIns.Logger.csproj", "{6DF65D59-BFC1-4566-9F1C-CE1E1FEDC752}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchBench.Server.Kernel", "ArchBench.Server.Kernel\ArchBench.Server.Kernel.csproj", "{D90378CC-1780-4B17-81FE-409B465280F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchBench.Server.CLI", "ArchBench.Server.CLI\ArchBench.Server.CLI.csproj", "{716CD1EF-827B-4C49-AB37-03825FF6BD02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchBench.PlugIns.Broker", "ArchBench.PlugIns.Broker\ArchBench.PlugIns.Broker.csproj", "{A8C78669-A0FD-4EDD-BD7C-BB09E952B4AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchBench.PlugIns.BServers", "ArchBench.PlugIns.BServers\ArchBench.PlugIns.BServers.csproj", "{F5B14964-FD06-491D-9636-976F220B5800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3674E873-4DFE-4296-8D75-9869AC6A9EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3674E873-4DFE-4296-8D75-9869AC6A9EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3674E873-4DFE-4296-8D75-9869AC6A9EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3674E873-4DFE-4296-8D75-9869AC6A9EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E27897A-D0AB-4F1F-92EF-F1079CF0416E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E27897A-D0AB-4F1F-92EF-F1079CF0416E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E27897A-D0AB-4F1F-92EF-F1079CF0416E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E27897A-D0AB-4F1F-92EF-F1079CF0416E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56821931-D69A-4220-9D11-E1BADE7B4441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56821931-D69A-4220-9D11-E1BADE7B4441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56821931-D69A-4220-9D11-E1BADE7B4441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56821931-D69A-4220-9D11-E1BADE7B4441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE82443-CF9F-46A1-842C-9C123A14D96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE82443-CF9F-46A1-842C-9C123A14D96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE82443-CF9F-46A1-842C-9C123A14D96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE82443-CF9F-46A1-842C-9C123A14D96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF65D59-BFC1-4566-9F1C-CE1E1FEDC752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF65D59-BFC1-4566-9F1C-CE1E1FEDC752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF65D59-BFC1-4566-9F1C-CE1E1FEDC752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF65D59-BFC1-4566-9F1C-CE1E1FEDC752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90378CC-1780-4B17-81FE-409B465280F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90378CC-1780-4B17-81FE-409B465280F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90378CC-1780-4B17-81FE-409B465280F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90378CC-1780-4B17-81FE-409B465280F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716CD1EF-827B-4C49-AB37-03825FF6BD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716CD1EF-827B-4C49-AB37-03825FF6BD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716CD1EF-827B-4C49-AB37-03825FF6BD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716CD1EF-827B-4C49-AB37-03825FF6BD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C78669-A0FD-4EDD-BD7C-BB09E952B4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C78669-A0FD-4EDD-BD7C-BB09E952B4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C78669-A0FD-4EDD-BD7C-BB09E952B4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C78669-A0FD-4EDD-BD7C-BB09E952B4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B14964-FD06-491D-9636-976F220B5800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B14964-FD06-491D-9636-976F220B5800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B14964-FD06-491D-9636-976F220B5800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B14964-FD06-491D-9636-976F220B5800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56821931-D69A-4220-9D11-E1BADE7B4441} = {5DF8506A-53A8-4D38-9794-83EA082925E5}
+		{5DE82443-CF9F-46A1-842C-9C123A14D96A} = {5DF8506A-53A8-4D38-9794-83EA082925E5}
+		{6DF65D59-BFC1-4566-9F1C-CE1E1FEDC752} = {5DF8506A-53A8-4D38-9794-83EA082925E5}
+		{A8C78669-A0FD-4EDD-BD7C-BB09E952B4AB} = {5DF8506A-53A8-4D38-9794-83EA082925E5}
+		{F5B14964-FD06-491D-9636-976F220B5800} = {5DF8506A-53A8-4D38-9794-83EA082925E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C42B325A-90CB-42B0-9191-4873159191C3}
+	EndGlobalSection
+EndGlobal
